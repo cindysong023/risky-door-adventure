@@ -1,10 +1,32 @@
-# BCOG200 final project
-BCOG200 final project
-1. For my final project, I will create a simple apple snack game where the player moves around and chooses between two types of apples. One type of apple will always give a small, safe number of points. The other type of apple will sometimes give a large reward, but sometimes cause the player to lose points. The player must decide which apple to choose in order to earn the highest total score. 
+# Risky Door Adventure
 
-2a. I plan to write a choose_action() function. This function will allow the player to choose between the safe apple and the risky apple each turn. It will take the player’s input and return which option was selected.
+Risky Door Adventure is a simple adventure game where the player moves through rooms by choosing between different doors. Each door has a different level of risk and reward, so the player must make careful choices to earn points while protecting their health. Some doors give small, safe rewards, while others may give a big reward or a penalty. 
 
-2b. I plan to write a get_reward(action) function. This function will determine how many points the player earns after choosing an apple. If the safe apple is chosen, it will always return a small reward. If the risky apple is chosen, it will randomly return either a large reward or a loss of points.
+planned functions:
+1. choose_door() -- Asks the player which door they want to enter and returns their choice.
 
-2c. I plan to write a update_score(reward) function. This function will update the player’s total score after each turn. It will add the reward to the current score or subtract points if there is a penalty.
+2. get_outcome(door) -- Takes in the chosen door and determines what happens, such as a reward, a penalty, or no change.
+
+3. update_game_state(score, health, outcome) -- Updates the player’s score and health based on the result of the chosen door.
+
+4. check_game_over(health) -- Checks whether the player’s health has reached zero and whether the game should end.
+
+5. record_data(round_num, door, outcome, score, health) -- This will store information from each round so the game data can be analyzed later.
+
+# Example use cases: 
+-- A user can play the game for fun by making choices between safe and risky options. Additionally, the saved game data of how different choices affect score and survival can later be used to look at patterns in decision making.
+
+## Input Structure
+This program does not require an external data file. The user will enter choices directly in the terminal by typing a door option, such as "1", "2", or "3". 
+
+## Game Features
+- Multiple rooms with different door choices  
+- Safe and risky options with different outcomes  
+- Health system that determines survival  
+- Game over and escape conditions  
+- Data recording for each round
+
+
+
+
 
