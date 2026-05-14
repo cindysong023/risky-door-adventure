@@ -1,8 +1,9 @@
-# Risky Door Adventure
+# Risky Door Escape
 
-Risky Door Adventure is a simple adventure game where the player moves through rooms by choosing between different doors. Each door has a different level of risk and reward, so the player must make careful choices to earn points while protecting their health. Some doors give small, safe rewards, while others may give a big reward or a penalty. 
+Risky Door Escape is a game where the player is trapped in a series of rooms and must choose between different doors to escape. Each door has a different level of risk and reward. Some doors lead to safe outcomes with small rewards, while others may give a large reward or cause the player to lose health. The goal is to escape while earning as many points as possible without running out of health. 
 
-planned functions:
+
+## planned functions:
 1. choose_door() -- Asks the player which door they want to enter and returns their choice.
 
 2. get_outcome(door) -- Takes in the chosen door and determines what happens, such as a reward, a penalty, or no change.
