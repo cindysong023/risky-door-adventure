@@ -71,10 +71,9 @@ def check_game_over(health):
 
 
 def record_data(game_data, round_num, door, outcome, score, health):
-
     """Store data from each round for later analysis."""
 
-    game_data.append({ "round": round_num, "door": door, "outcome": outcome["message"], "score": score, "health": health, })
+    game_data.append({"round": round_num, "door": door, "outcome": outcome["message"], "score": score, "health": health})
 
 
 def get_image_path(filename):
