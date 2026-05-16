@@ -71,7 +71,18 @@ risky-door-escape/
 └── tests/
 
 ## How to run the program 
-Run the following command in the terminal: python risky_door_adventure.py
+
+1. Download or clone this repository.
+
+2. Install the required Python package:
+
+```bash
+   pip install pillow pytest
+
+3. Run the game:
+python risky_door_adventure.py
+
+
 
 ## Testing
 This project includes unit tests for the main game logic functions.
