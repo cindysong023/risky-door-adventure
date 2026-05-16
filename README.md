@@ -76,12 +76,12 @@ risky-door-escape/
 
 2. Install the required Python package:
 
-```bash
+   ```bash
    pip install pillow pytest
+   
 
-3. Run the game:
-python risky_door_adventure.py
-
+ 3. Run the game:
+    python risky_door_adventure.py
 
 
 ## Testing
